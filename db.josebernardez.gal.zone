@@ -1,0 +1,16 @@
+;
+; BIND data file for oadri.gal
+;
+$TTL	604800
+@	IN	SOA	josebernardez.gal. root.josebernardez.gal. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.josebernardez.gal.
+ns	IN	A	100.0.0.254
+oadri.gal.	IN	A	100.0.0.10
+paxina1 IN  CNAME   josebernardez.gal.
+paxina2 IN  CNAME   josebernardez.gal.
